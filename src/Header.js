@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = (props) => {
-  console.log(props);
+  
   const callSearch = (e) => {
     props.onSearch(e.target.value);
   };

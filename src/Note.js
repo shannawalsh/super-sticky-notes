@@ -1,7 +1,6 @@
 import React from "react";
 
 const Note = (props) => {
-  console.log(props);
 
   const updateTitle = (e) => {
     const updatedValue = e.target.value;
